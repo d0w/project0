@@ -5,6 +5,13 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #f0776e;
+  padding-top: 50px;
+}
+
 header {
   text-align: center;
   font-size: 25px;
@@ -12,6 +19,40 @@ header {
   border: 3px solid black;
   border-collapse: collapse;
   background-color: darksalmon;
+}
+
+a {
+  background-color: turquoise;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 3px solid black;
+}
+
+a:hover {
+  color: #f0776e;
+}
+
+#HomeParagraphs p {
+  font-size: 20px;
+}
+#HomeParagraphs .ParagraphHeads {
+  font-size: 32px;
+  font-weight: bold;
+}
+#HomeParagraphs #imagePanel {
+  border: 3px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+#HomeParagraphs #imagePanelContents {
+  background-color: lightgray;
+}
+#HomeParagraphs #imagePanelContents .imageHeader {
+  color: red;
 }
 
 /*# sourceMappingURL=homeStyling.css.map */

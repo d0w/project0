@@ -1,8 +1,19 @@
+$colorRed: #f0776e;
+$colorDarkBlue: #40635e;
+
 h1 {
     text-align:center;
     color:crimson;
     font-size: 50px;
     font-weight: bold;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: $colorRed;
+    padding-top: 50px;
+
 }
 header {
     text-align:center;
@@ -12,3 +23,50 @@ header {
     border-collapse: collapse;
     background-color: darksalmon;
 }
+a {
+    background-color: turquoise;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 3px solid black;
+}
+
+a:hover{
+    color: $colorRed;
+}
+
+#HomeParagraphs {
+    p {
+        font-size: 20px;
+    }
+
+    .ParagraphHeads {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    #imagePanel {
+        border: 3px solid black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    #imagePanelContents {
+        background-color: lightgray;
+        
+        .imageHeader {
+            color: red;
+        }
+        
+    }
+}
+
+
+
+
+
+
+
