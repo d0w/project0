@@ -1,8 +1,19 @@
+#drumlineParagraphs p, #playParagraphs li, #playParagraphs .extraInfo, #HomeParagraphs p {
+  font-size: 20px;
+}
+
 h1 {
   text-align: center;
   color: crimson;
   font-size: 50px;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #f0776e;
+  padding-top: 50px;
 }
 
 header {
@@ -12,6 +23,40 @@ header {
   border: 3px solid black;
   border-collapse: collapse;
   background-color: darksalmon;
+}
+
+a:hover {
+  color: #f0776e;
+}
+
+#HomeParagraphs .ParagraphHeads {
+  font-size: 32px;
+  font-weight: bold;
+}
+#HomeParagraphs #imagePanel {
+  border: 3px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+#HomeParagraphs #imagePanelContents {
+  background-color: lightgray;
+}
+#HomeParagraphs #imagePanelContents > .imageHeader {
+  color: red;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+#drumlineParagraphs p {
+  text-indent: 40px;
+}
+
+#otherParagraphs table, #otherParagraphs tr, #otherParagraphs th, #otherParagraphs td {
+  padding: 30px;
+  font-size: 40px;
+  border: 3px solid black;
+  border-collapse: collapse;
 }
 
 /*# sourceMappingURL=homeStyling.css.map */
