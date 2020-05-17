@@ -1,0 +1,4 @@
+The project is a four html page website that are each accessible to each other in their respective pages.
+The website explains what the marimba is and how it is utilized in a drumline setting. It is meant to showcase
+one of my hobbies as a percussionist. There are four pages named, Home, How to Play, Drumline, and Other Instruments.
+In "Home", it gives a brief summary of the instrument and my experience which uses headers, paragraphs, lists, and an image. The "how to play" page explains how to play the instrument using headers and lists. "Drumline" page explains what a drumline is using paragraphs and headers. Other instruments gives related instruments to the marimba and their respective information using tables. Each of these pages includes the same bar at the top which includes hyperlinks to access every other page on the website. All pages use bootstrap components to make each page responsive.
