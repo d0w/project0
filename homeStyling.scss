@@ -1,6 +1,10 @@
 $colorRed: #f0776e;
 $colorDarkBlue: #40635e;
 
+%paragraphs {
+    font-size:20px;
+}
+
 h1 {
     text-align:center;
     color:crimson;
@@ -23,15 +27,7 @@ header {
     border-collapse: collapse;
     background-color: darksalmon;
 }
-a {
-    background-color: turquoise;
-    color: black;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border: 3px solid black;
-}
+
 
 a:hover{
     color: $colorRed;
@@ -39,7 +35,7 @@ a:hover{
 
 #HomeParagraphs {
     p {
-        font-size: 20px;
+        @extend %paragraphs;
     }
 
     .ParagraphHeads {
@@ -57,8 +53,10 @@ a:hover{
     #imagePanelContents {
         background-color: lightgray;
         
-        .imageHeader {
+        > .imageHeader {
             color: red;
+            padding-left: 5px;
+            font-weight: bold;
         }
         
     }
@@ -66,8 +64,25 @@ a:hover{
 
 #playParagraphs {
     li, .extraInfo{
-        font-size: 20px;
+        @extend %paragraphs;
     }
+}
+
+#drumlineParagraphs {
+    p {
+        @extend %paragraphs;
+        text-indent: 40px;
+    }
+}
+
+#otherParagraphs { 
+    table, tr, th, td{
+        padding: 30px;
+        font-size: 40px;
+        border: 3px solid black;
+        border-collapse: collapse;
+    }
+    
 }
 
 
